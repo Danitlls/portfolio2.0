@@ -1,0 +1,75 @@
+*{
+
+
+  text-decoration: none;
+  list-style: none;
+}
+
+.section {
+  text-align:center;
+  font-size: 3em;
+  height: 100vh;
+}
+#callbacks-placeholder{
+  position:fixed;top:50px;left:50px;color:black;z-index:999;
+}
+#black{
+  display: block;
+  background-color: black;
+  width: 100%;
+  height: 100vh;
+}
+
+.leftHalf{
+  width: 50%;
+  float: left;
+  padding-top: 30vh;
+  /*height: 50vh;*/
+  /*border-right: 2px dashed white;*/
+}
+
+.myname{
+  font-family: monospace;
+  color: white;
+  font-size: 70%;
+  line-height: .5em;
+}
+
+.rightHalf{
+  width: 50%;
+  float: right;
+  /*border-left: 2px dashed white;*/
+  /*height: 50vh;*/
+}
+
+#lista{
+  display: none;
+
+  height: 30vh;
+  float: left;
+  clear: both;
+}
+#lista ul li{
+  padding: 10px;
+}
+
+.center{
+  position: relative;
+  left: 50%;
+  height: 75%;
+  width: 2px;
+  border-left: 2px dashed white;
+}
+#arrow1 {
+  width: 100%;
+  display: inline-block;
+  position: relative;
+  top: 30%;
+  left:0;
+  clear: both;
+}
+.links a{
+  font-family: monospace;
+  color:white;
+  padding-top: 20px;
+}
